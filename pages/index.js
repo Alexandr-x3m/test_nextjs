@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import s from '../styles/App.module.sass'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
+        <h1 className={s.title}>
           Welcome to <a href="https://nextjs.org">Test Next.js!</a>
         </h1>
 
